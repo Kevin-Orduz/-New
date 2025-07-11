@@ -1,7 +1,7 @@
 body {
   margin: 0;                                /* Elimina márgenes del body */
   min-height: 1vh;                        /* Altura mínima = alto del viewport */
-  background: url('../img/pasteleria.avif') 
+  background: url('../pasteleria.avif') 
      no-repeat center center fixed;         /* fondo sin repetir, centrado y fijo */
   background-size: cover;
   color: white;                   /* cubre por completo */
@@ -28,10 +28,13 @@ body {
     grid-template-columns: 205px 205px 205px 205px;
     gap: 10px;
 }
-.item{
+.item ,.item2{
     background-color: rgba(255, 127, 80, 0.781);
     padding: 10px;
     border: 1px double black;
+}
+.item2:hover{
+    background-color: blueviolet;
 }
 /* pie de pagina */
 .item1{
